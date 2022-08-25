@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Mídias</h1>
+    <p>Tente abrir esse site em dispositivos diferentes, ou aumente e diminua o tamanho do seu navegador</p>
+    <h2>Imagem dinâmica</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h2>Áudio</h2>
+    <P>Primeira maneira</P>
+    <audio src="midia/Kiss_The_Heavens.mp3" controls autoplay></audio>
+    <!--MP3, WAVE, OGG-->
+    <p>Segunda maneira</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Snowfall_Butterflies.mp3" type="audio/mpeg">
+        <source src="midia/Snowfall_Butterflies.ogg" type="audio/ogg">
+        <source src="midia/Snowfall_Butterflies.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio, <a href="midia/Snowfall_Butterflies.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+    <h2>Vídeos</h2>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+@charset UTF-8;
+
+
+body {
+    background-color: lightblue;
+}
+
+#principal {
+    background-color: aquamarine;
+    color: darkblue;
+}
+.estilo {
+    text-align: center;
+    color: darkblue;
+}
+.basico {
+    color: darkgreen;
+}
+.intermediario {
+    color: darkorange;
+}
+.avancado {
+    color: darkred;
+}
+.corinthiana {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}

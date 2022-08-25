@@ -1,0 +1,121 @@
+@charset UTF-8;
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+    background-color: brown;    
+    margin: 0;
+}
+header {
+    background-image: linear-gradient(rgb(229, 59, 59),rgb(150, 34, 34));
+    width: 100%;
+    margin: 0;
+    padding-bottom: 0.5em;
+}
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+}
+div {
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+#titulo {
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+    font-family:'Caveat', cursive;
+    font-weight: bolder;
+}
+.subtitulo {
+    font-size: 1em;
+    text-align: center;
+    margin: 0 25%;
+    padding-bottom: 1em;
+    font-weight: 600;
+}
+.icones {
+    margin-left: 2%;
+    margin-right: 2%;
+    color: black;
+    font-weight: bolder;
+}
+.titulo_corpo {
+    font-family: serif;
+    font-size: 1.7em;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+    color: brown;
+}
+.rodape {
+    text-align: center;
+}
+.texto_corpo {
+    text-align: justify;
+    text-indent: 1em;
+    margin: 0 0.5em ;
+    font-size: 0.9em;
+    padding-bottom: 0.5em;
+}
+.secao {
+    font-family: serif;
+    font-size: 1.5em;
+    color: brown;
+    background-image:linear-gradient(90deg,rgba(60, 14, 14, 0.447), rgba(255, 62, 62, 0.389)) ;
+    margin: 0.5em 0.5em;
+    text-align: left;
+    border-radius: 0.2em;
+    text-indent: 0.5em;
+}
+.container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 62.5%;
+  }
+  
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+    border: none;
+    margin: 0 auto;
+    border-radius: 1em;
+  }
+  .lista1 {
+    float: left;
+    width: 40%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .lista2 {
+    float: right;
+    width: 40%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .janela {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(165, 42, 42, 0.356);
+    border-radius: 0.5em;
+  }
