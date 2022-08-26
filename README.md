@@ -1,4 +1,4 @@
 # HTML-CSS
  Exercícios de HTML e CSS (curso em vídeo)
 
-Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
+Clique nesse <a href="">link</a> para acessar o site do capitulo 2
