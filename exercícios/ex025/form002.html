@@ -7,8 +7,42 @@
     <title>Elementos sem input</title>
 </head>
 <body>
-    <form action="cadastro.php">
-        
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="est" id="iest">
+                <option value="" selected>---Escolha---</option> --Escolha--</option>
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espírito Santo</option>
+                </optgroup>
+
+                <optgroup label="Região Sul">
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iProf">Profissão</label>
+            <input type="text" name="Prof" id="iProf" list="lstprof">
+            <datalist id="lstprof">
+                <option>Engenheiro</option>
+                <option>Médico</option>
+                <option>Advogado</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="iMsg">Mensagem</label>
+            <textarea name="Msg" id="iMsg" cols="30" rows="10" placeholder="Escreva sua mensagem aqui"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>

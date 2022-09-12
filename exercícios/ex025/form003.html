@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>output</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            <label for="inum1">Digite o primeiro numero</label><input type="number" name="num1" id="inum1" oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+            
+        </p>
+        <p>
+            <label for="inum2">Digite o segundo numero</label><input type="number" name="num2" id="inum2" oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">    
+        </p>
+        <p>
+            <label for="irange"></label>
+            <input type="range" name="range" id="irange"
+            oninput="ibarra.innerHTML = Number(irange.value)">
+        </p>
+        <p>
+            <label for="iano">Em que ano você nasceu?</label>
+            <input type="number" name="ano" id="iano" 
+            oninput="iidade.innerHTML = Number(2022)-Number(iano.value)">
+        </p>
+        <p>
+            <label for="isoma">A soma é:  </label>
+            <output name="soma" id="isoma"></output>
+        </p>
+        <p>
+            <label for="ibarra">A barra está em:  </label>
+            <output name="barra" id="ibarra"></output>
+        </p>
+        <p>
+            <label for="iidade">Sua idade é:</label>
+            <output name="idade" id="iidade"></output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
