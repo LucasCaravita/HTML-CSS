@@ -7,23 +7,31 @@
     <title>Formulário</title>
     <style>
         form{
-            border: 1px solid black;
-            width: 180px;
-            padding: 10px;
+            width: 200px;
         }
     </style>
 </head>
 <body>
     <form action="cadastro.php" method="post">
-        <p><label for="iNome">Nome: </label> <input type="text" name="Nome" id="iNome" required  size="20" autocomplete="off"></p>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+        <p><label for="iNome">Nome: </label> <input type="text" name="Nome" id="iNome" required  size="20" autocomplete="off" value="Lucas Caravita"></p>
         <p><label for="iSobrenome">Sobrenome: </label> <input type="text" name="Sobrenome" id="iSobrenome" size="20" placeholder="Sobrenome do usuário"></p>
-        <p><label for="iData">Data de nascimento: </label><input type="date" name="Data" id="iData" size="30"></p>
+        <p><label for="iData">Data de nascimento: </label><input type="date" name="Data" id="iData" size="30" value="1999-08-12"></p>
+        </fieldset>
         <p><label for="iNumero">Número favorito:</label><input type="number" name="Numero" id="iNumero" step="0.1"></p>
+        <p><label for="iCor">Cor favorita</label><input type="color" name="Cor" id="iCor"></p>
+        <p><label for="iVolume">Volume desejado:</label><input type="range" name="Volume" id="iVolume" value="30"></p>
+        <p><label for="iFoto">Adicionar foto de perfil</label><input type="file" name="Foto" id="iFoto"></p>
         <p><label for="iTempo">Horário</label><input type="time" name="Tempo" id="iTempo"></p>
         <p><label for="iMes">Mês atual: </label><input type="month" name="Mes" id="iMes"></p>
+        <p><label for="iEmail">Email:</label><input type="email" name="Email" id="iEmail"></p>
+        <p><label for="iTelefone">Telefone: </label><input type="tel" name="Telefone" id="iTelefone"></p>
+        <p><input type="checkbox" name="Termos" id="iTermos"><label for="iTermos">Li e concordo com os termos de uso</label></p>
+        <p><input type="radio" name="Ofertas" id="iOfertas"> <label for="iOfertas">Desejo receber as ofertas por email</label></p>
+        <p><input type="radio" name="Ofertas" id="inOfertas"> <label for="inOfertas">Não desejo receber as ofertas por email</label></p>
         <p><label for="iSenha">Senha</label><input type="password" name="Senha: " id="iSenha" minlength="5" maxlength="15" size="20"></p><input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
-        <p><input type="week" name="" id=""></p>
     </form>
 </body>
 </html>
