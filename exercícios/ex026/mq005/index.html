@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h1>Testando Media Queries</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quae voluptas molestiae consequatur ex. Architecto tempore fugit, dolor natus consectetur voluptas. Nostrum tenetur maiores iure atque deleniti impedit modi explicabo?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, omnis quia. Nesciunt animi alias quis libero quod ea nemo nisi? Dolor eveniet laboriosam labore quos ratione animi, exercitationem ipsa sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae et illo, praesentium sapiente sit quae ab, ullam corrupti iure facilis enim provident. Nesciunt aliquid est similique vero excepturi sapiente aliquam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reiciendis, aut et repellat, fugit obcaecati officiis suscipit ipsum perspiciatis non reprehenderit ratione dignissimos neque. Voluptate dolorem quod blanditiis voluptates enim!</p>
+        </article>
+        
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'none')
+            {
+                itens.style.display = 'block'
+            }
+            else{
+                itens.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
